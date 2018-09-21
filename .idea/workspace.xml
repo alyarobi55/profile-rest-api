@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0b5890f3-76f3-4db8-9101-15ba37ce10f2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/profiles_project/profiles_api/permissions.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles_project/profiles_api/permissions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/profiles_project/profiles_api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles_project/profiles_api/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/profiles_project/profiles_api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles_project/profiles_api/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/profiles_project/profiles_api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles_project/profiles_api/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,15 +39,15 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="md" value="95" />
-          <entry key="py" value="5655" />
-          <entry key="txt" value="591" />
+          <entry key="py" value="5658" />
+          <entry key="txt" value="676" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="95" />
-          <entry key="PLAIN_TEXT" value="591" />
-          <entry key="Python" value="5655" />
+          <entry key="PLAIN_TEXT" value="676" />
+          <entry key="Python" value="5658" />
         </counts>
       </usages-collector>
     </session>
@@ -102,13 +99,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/profiles_project/profiles_api/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="132" column="79" lean-forward="true" selection-start-line="132" selection-start-column="79" selection-end-line="132" selection-end-column="79" />
+            <state relative-caret-position="242">
+              <caret line="132" column="68" selection-start-line="132" selection-start-column="68" selection-end-line="132" selection-end-column="68" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
-                <marker date="1537528944197" expanded="true" signature="3487:3492" ph="..." />
-                <marker date="1537528944197" expanded="true" signature="3881:4143" ph="..." />
-                <marker date="1537528944197" expanded="true" signature="4195:4200" ph="..." />
+                <marker date="1537529057812" expanded="true" signature="3487:3492" ph="..." />
+                <marker date="1537529057812" expanded="true" signature="3881:4143" ph="..." />
+                <marker date="1537529057812" expanded="true" signature="4195:4200" ph="..." />
               </folding>
             </state>
           </provider>
@@ -363,7 +360,14 @@
       <option name="project" value="LOCAL" />
       <updated>1537526948133</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Added the permission for users to read the feed items if they are not authinticated">
+      <created>1537529046603</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1537529046603</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -416,7 +420,8 @@
     <MESSAGE value="Added search function to user profile API" />
     <MESSAGE value="Added login API" />
     <MESSAGE value="Added model for storing profile feed items, created migration and added to Django admin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added model for storing profile feed items, created migration and added to Django admin" />
+    <MESSAGE value="Added the permission for users to read the feed items if they are not authinticated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the permission for users to read the feed items if they are not authinticated" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/hello_world.py">
@@ -545,13 +550,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/profiles_project/profiles_api/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="132" column="79" lean-forward="true" selection-start-line="132" selection-start-column="79" selection-end-line="132" selection-end-column="79" />
+        <state relative-caret-position="242">
+          <caret line="132" column="68" selection-start-line="132" selection-start-column="68" selection-end-line="132" selection-end-column="68" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
-            <marker date="1537528944197" expanded="true" signature="3487:3492" ph="..." />
-            <marker date="1537528944197" expanded="true" signature="3881:4143" ph="..." />
-            <marker date="1537528944197" expanded="true" signature="4195:4200" ph="..." />
+            <marker date="1537529057812" expanded="true" signature="3487:3492" ph="..." />
+            <marker date="1537529057812" expanded="true" signature="3881:4143" ph="..." />
+            <marker date="1537529057812" expanded="true" signature="4195:4200" ph="..." />
           </folding>
         </state>
       </provider>
